@@ -34,11 +34,11 @@ The output should be identical to the contents of [this file](./1.txt):
 
 # Exercice 2 : List
 
-Write a function "Countword" whose objective is to count the number of times a word appears in a sentence.
-You will first need to separate the sentence into smaller words you can compare the target to
-This function takes 2 parameters, "sentence" and "target":
-"sentence" -> the sentence you will search through
-"target" -> the word you look for in the sentence
+Write a "Countword" function whose objective is to count the number of times a word appears in a sentence.
+You will first need to separate the sentence into smaller words you can compare the target to.
+This function takes 2 parameters :
+    - "sentence" -> the sentence you will search through
+    - "target" -> the word you look for in the sentence
 
 You might find help here:
 (https://www.lua.org/pil/2.5.html)
@@ -94,14 +94,15 @@ I take care not to trouble myself with any enemies, like winning and losing, tha
 # Exercice 6 : OOP basics
 
 Create a Pet function returning a map with the properties "name" and "status".
+
 If no parameter is provided, the default values for __"name"__ and __"status"__ will be __"Kikki"__ and __"Hungry"__ respectively.
 
 
 # Exercice 7 : Methods
 
 Add 2 methods to your Pet map:
-CHECK: display the pet's name and status
-FEED: set the pet's status to "Fed" 
+    - check: display the pet's name and status
+    - feed: set the pet's status to "Fed" 
 
 Example:
 
