@@ -37,6 +37,7 @@ The output should be identical to the contents of [this file](./1.txt):
 Write a "Countword" function whose objective is to count the number of times a word appears in a sentence.
 You will first need to separate the sentence into smaller words you can compare the target to.
 This function takes 2 parameters :
+
     - "sentence" -> the sentence you will search through
     - "target" -> the word you look for in the sentence
 
@@ -119,6 +120,7 @@ animal.feed(animal) -> "Minou has been fed"
 Create a Dog map derived from your Pet map which takes 3 parameters : name, status and breed.
 
 Add 2 new properties :
+
     - breed (_"Australian Shepherd"_ by default)
     - loyalty (set to 0)
 
@@ -126,6 +128,7 @@ Over-ride the default name to now be __"Meimei"__.
 Over-ride the FEED method to now increase the LOYALTY by 5
 
 Add 2 new methods:
+
     - isLoyal -> display "is loyal" if loyalty is supertior to 10
     - bark -> display "Woof Woof"
 
