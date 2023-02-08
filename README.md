@@ -16,6 +16,13 @@ $ sudo apt install lua5.3
 (https://www.lua.org/download.html)
 ```
 
+## PRESENCES:
+
+Fork the repository (set yourself as the owner) and commit with your name to be marked present.
+example:
+[PRESENCE] : Bill ON
+
+
 ## Launch lua:
 ```
 lua file.lua
